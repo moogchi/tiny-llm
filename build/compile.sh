@@ -1,6 +1,6 @@
 #!/usr/bin/env bash
 
-CPP_VER="-std=c++20"
+CPP_VER="-std=c++23"
 COMPILE_FLAGS="-Wall -Wextra -Werror -Wpedantic -Wshadow -Wconversion"
 BUILD_DIR="build"
 SRC_DIR="Core/Src"

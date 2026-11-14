@@ -9,8 +9,8 @@ clean:
 	rm -f build/llm
 
 run:
-	build/llm
+	@build/llm
 
-build/llm: Core
+build/llm: Core/Src/*.cpp
 	@mkdir -p build
 	@build/compile.sh
